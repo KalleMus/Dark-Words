@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<hmtl>
+<title>Dark Words</title>
+<style>
+
+h1 {
+	margin-left: 10px;
+	color: white;
+	font-style
+}
+h2 {
+	margin-left: 10px;
+	color: #e33;
+	font-family: Arial;
+	
+}
+p {
+	color: white;
+	font-family: Courier;
+	font-size: 100%;
+	width: 50vw;
+}
+
+a {
+	color: red;
+	font-family: Courier;
+	font-size: 100%;
+	width: 50vw;
+}
+
+
+body{	
+	background-image: url("tausta.jpg");
+	background-size: auto;
+	<!--background-repeat: no-repeat;-->
+	margin:0;
+	padding:0;
+}
+.top{
+	background-image: url("logo3.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 30%;
+	left:175px;
+	top:0;
+	position: absolute;
+	color: #333;
+	height: 10%;
+}
+.sidebar{	
+	width: 130px;
+	padding-left: 10px;
+	background-image: url("sidebaranimationDarker.gif");
+	background-position: -100px;
+	background-size: 420px;
+	background-repeat: no-repeat;
+	left:0;
+	top:0;
+	position: absolute;
+	color: #333;
+	height: 750px;
+	border-radius: 4px;
+	border: 2px solid #933;
+}
+.bar{
+	padding-bottom: 10px;
+	
+}
+
+.book{
+	padding-left: 400px;
+}
+.content{
+	left:175px;
+	top:120px;
+	position: absolute;
+}
+</style>
+<body>
+
+<div class="top">
+</div>
+
+<div class="sidebar">
+  <a href="index.html"><img class="bar" src="home.png" alt="home" width=125px></a> 
+  <a href="BookCover.html"><img class="bar" src="world.png" alt="world" width=100px></a>
+  <a href="BossesOldGiant.html"><img class="bar" src="bosses.png" alt="bosses" width=120px></a>
+  <a href="Prison.html"><img class="bar" src="enemies2.png" alt="enemies" width=120px></a>
+  <a href="combat.html"><img class="bar" src="combat2.png" alt="combat" width=120px></a>
+  <a href="items.html"><img class="bar" src="items.png" alt="items" width=100px></a>
+</div>
+
+<div class="content">
+
+<p>Dark Words is an text adventure roleplaying adventure game, that's heavily insipired by the Dark Souls series.</p>
+
+<p>The finished version (V 1.00) of the game can be downloaded below.</p>
+
+<a href="Dark Words.rar" download>DOWNLOAD</a>
+
+</div>
+
+</body>
+</html>
